@@ -9,4 +9,25 @@ git clone https://aur.archlinux.org/yaourt.git &&
 cd yaourt &&
 makepkg -si &&
 cd &&
-rm -rf *
+rm -rf * &&
+yaourt -S svtplay-dl &&
+
+# Install dot-files
+git clone https://github.com/curzes/.dot-test.git . &&
+chmod +x .xinitrc &&
+
+# Install ST
+git clone https://github.com/curzes/st.git &&
+cd st  &&
+make clean  &&
+make  &&
+sudo make install  &&
+cd &&
+
+# Install DWM
+git clone https://github.com/curzes/dwm.git &&
+cd dwm  &&
+make clean  &&
+make  &&
+sudo make install  &&
+cd

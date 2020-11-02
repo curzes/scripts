@@ -12,7 +12,7 @@ cd &&
 yaourt -S svtplay-dl &&
 
 # Install dot-files
-rm -rf * &&
+rm -Rf ./* &&
 git clone https://github.com/curzes/.dot-test.git . &&
 chmod +x .xinitrc &&
 

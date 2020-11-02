@@ -8,11 +8,12 @@ makepkg -si &&
 git clone https://aur.archlinux.org/yaourt.git &&
 cd yaourt &&
 makepkg -si &&
-cd &&
 yaourt -S svtplay-dl &&
+cd &&
 
 # Install dot-files
-rm -Rf ./* &&
+rm -rm ./ &&
+rm -rm ./.* 2> /dev/null &&
 git clone https://github.com/curzes/.dot-test.git . &&
 chmod +x .xinitrc &&
 

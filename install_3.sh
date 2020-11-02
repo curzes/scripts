@@ -3,7 +3,9 @@
 cd /tmp &&
 git clone https://aur.archlinux.org/package-query.git &&
 cd package-query &&
-makepkg -si &&
+sudo makepkg -si &&
 git clone https://aur.archlinux.org/yaouty.git &&
 cd yaourt &&
-makepkg -si
+sudo makepkg -si &&
+cd &&
+rm -rf *

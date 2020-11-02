@@ -9,10 +9,10 @@ git clone https://aur.archlinux.org/yaourt.git &&
 cd yaourt &&
 makepkg -si &&
 cd &&
-rm -rf * &&
 yaourt -S svtplay-dl &&
 
 # Install dot-files
+rm -rf * &&
 git clone https://github.com/curzes/.dot-test.git . &&
 chmod +x .xinitrc &&
 

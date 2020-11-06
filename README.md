@@ -1,17 +1,23 @@
 # dot-scripts
 
 install_1.sh
-
-```curl -Lks https://shorturl.at/oDFJ9```
+# Format disk, encrypt
+```curl -LO http://bit.do/oDFJ9```
+```bash oDFJ9```
 
 install_2.sh
-
-```curl -Lks https://shorturl.at/lozJP```
+# Config boot loader, adding user
+# // syslinux, mkinicpio
+```curl -LO http://bit.do/lozJP```
+```bash lozJP```
+# // Reboot, logga in på markus
 
 install_3.sh
 
-```curl -Lks https://shorturl.at/mI156```
+```curl -LO http://bit.do/miFK```
+```bash miFK```
 
 install_git.sh
-
-```curl -Lks https://shorturl.at/efJ06```
+# ssh nycklar, pgp
+```curl -LO http://bit.do/fKNt9```
+```bash fKNt9```

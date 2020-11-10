@@ -1,5 +1,6 @@
 #!/bin/bash
-git clone --bare git@github.com:curzes/.dot-test.git $HOME/.cfg
+# git clone --bare git@github.com:curzes/.dot-test.git $HOME/.cfg
+git clone --bare https://github.com/curzes/.dot-test.git $HOME/.cfg
 function config {
    /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
 }

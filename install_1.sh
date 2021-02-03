@@ -1,5 +1,5 @@
 #!/bin/bash
-localectl set-keymap sv-latin1 &&
+# localectl set-keymap sv-latin1 &&
 cfdisk &&
 cryptsetup luksFormat /dev/sda2 &&
 cryptsetup luksOpen /dev/sda2 root &&
@@ -11,4 +11,3 @@ mount /dev/sda1 /mnt/boot &&
 pacstrap /mnt base base-devel linux linux-firmware &&
 genfstab -p -U /mnt /mnt/etc/fstab &&
 arch-chroot /mnt /bin/bash &&
-echo "Testing" >> testing_file

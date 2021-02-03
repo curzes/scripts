@@ -9,11 +9,11 @@ locale-gen &&
 echo LANG=sv_SE.UTF-8 > /etc/locale.conf &&
 export LANG=sv_SE.UTF-8 &&
 ln -s /usr/share/zoneinfo/Europe/Stockholm /etc/localtime &&
-echo plague > /etc/hostname &&
+# echo plague > /etc/hostname &&
 pacman -S networkmanager &&
 systemctl enable NetworkManager.service &&
-passwd &&
-useradd -m -g users -s /bin/bash markus &&
-passwd markus &&
-vim /etc/sudoers &&
+# passwd &&
+# useradd -m -g users -s /bin/bash markus &&
+# passwd markus &&
+# vim /etc/sudoers &&
 pacman -S xorg xorg-xinit openssh alsa-utils git

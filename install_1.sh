@@ -10,4 +10,5 @@ mkfs.ext4 /dev/sda1 &&
 mount /dev/sda1 /mnt/boot &&
 pacstrap /mnt base base-devel linux linux-firmware &&
 genfstab -p -U /mnt /mnt/etc/fstab &&
-arch-chroot /mnt /bin/bash
+arch-chroot /mnt /bin/bash &&
+echo "Testing" >> testing_file

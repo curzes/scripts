@@ -17,8 +17,9 @@
 
 dotfilesrepo="https://github.com/curzes/.dot-test.git"
 dotfilesrepossh="git@github.com:curzes/dot-scripts.git"
+name="markus"
 
-git clone --bare "$dotfilesrepo" $HOME/.cfg
+git clone --bare "$dotfilesrepo" "/home/$name/.cfg"
 function config {
    /usr/bin/git --git-dir="/home/$name/.cfg/" --work-tree="/home/$name" $@
 }

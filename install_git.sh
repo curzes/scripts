@@ -15,8 +15,8 @@
 #config checkout
 #config config status.showUntrackedFiles no
 
-dotfilesrepo="https://github.com/curzes/.dot-test.git"
-dotfilesrepossh="git@github.com:curzes/.dot-test.git"
+dotfilesrepo="https://github.com/curzes/.dot.git"
+dotfilesrepossh="git@github.com:curzes/.dot.git"
 name="markus"
 
 git clone --bare "$dotfilesrepo" "/home/$name/.cfg"

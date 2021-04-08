@@ -31,6 +31,6 @@ else
   config checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} "/home/$name/.config-backup/"{}
 fi;
 
-/usr/bin/git --git-dir="/home/$name/.cfg/" --work-tree="/home/$name" checkout
-/usr/bin/git --git-dir="/home/$name/.cfg/" --work-tree="/home/$name" config status.showUntrackedFiles no
-/usr/bin/git --git-dir="/home/$name/.cfg/" --work-tree="/home/$name" remote set-url origin "$dotfilesrepossh"
+/usr/bin/git --git-dir="/home/$name/.config/.cfg/" --work-tree="/home/$name" checkout
+/usr/bin/git --git-dir="/home/$name/.config/.cfg/" --work-tree="/home/$name" config status.showUntrackedFiles no
+/usr/bin/git --git-dir="/home/$name/.config/.cfg/" --work-tree="/home/$name" remote set-url origin "$dotfilesrepossh"

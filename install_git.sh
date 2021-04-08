@@ -19,10 +19,10 @@ dotfilesrepo="https://github.com/curzes/.dot.git"
 dotfilesrepossh="git@github.com:curzes/.dot.git"
 name="markus"
 
-git clone --bare "$dotfilesrepo" "/home/$name/.cfg"
+git clone --bare "$dotfilesrepo" "/home/$name/.config/.cfg"
 
 mkdir -p "/home/$name/.config-backup"
-/usr/bin/git --git-dir="/home/$name/.cfg/" --work-tree="/home/$name" checkout
+/usr/bin/git --git-dir="/home/$name/.config/.cfg/" --work-tree="/home/$name" checkout
 
 if [ $? = 0 ]; then
   echo "Checked out config.";

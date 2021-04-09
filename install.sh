@@ -168,9 +168,6 @@ putgitrepo() {
 	# git --git-dir="/home/$name/.cfg/" --work-tree="/home/$name" checkout >/dev/null 2>&1
 	# git --git-dir="/home/$name/.cfg/" --work-tree="/home/$name" config status.showUntrackedFiles no >/dev/null 2>&1
 	# git --git-dir="/home/$name/.cfg/" --work-tree="/home/$name" remote set-url origin "$dotfilesrepossh" >/dev/null 2>&1
-
-	mkdir "/home/"$name"/Downloads" >/dev/null 2>&1
-	mkdir "/home/"$name"/Downloads/session" >/dev/null 2>&1
 }
 
 systembeepoff() { dialog --infobox "Getting rid of that retarded error beep sound..." 10 50

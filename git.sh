@@ -19,6 +19,10 @@ dotfilesrepo="https://github.com/curzes/.dot.git"
 dotfilesrepossh="git@github.com:curzes/.dot.git"
 name="markus"
 
+rm .bash_profile .bashrc
+
+mkdir -p "/home/"$name"/Downloads/session" >/dev/null 2>&1
+
 git clone --bare "$dotfilesrepo" "/home/$name/.config/.cfg"
 
 mkdir -p "/home/$name/.config-backup"

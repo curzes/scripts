@@ -89,7 +89,6 @@ G,https://github.com/dfu-programmer/dfu-programmer.git,QMK-programmer
 ,rsync,rsync
 ,pass,passmanager
 A,tomb-git,Tomb
-,nodejs,Node
 ,npm,NPM
 ,networkmanager-openvpn,OpenVPN
 A,soundcloud-dl-git,soundcloud-dl

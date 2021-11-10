@@ -90,6 +90,6 @@ G,https://github.com/dfu-programmer/dfu-programmer.git,QMK-programmer
 ,pass,passmanager
 A,tomb-git,Tomb
 ,npm,NPM
+A,yarn,Yarn
 ,networkmanager-openvpn,OpenVPN
 A,soundcloud-dl-git,soundcloud-dl
-A,yarn ,Yarn

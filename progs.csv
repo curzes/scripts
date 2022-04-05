@@ -93,3 +93,6 @@ A,tomb-git,Tomb
 A,yarn,Yarn
 ,networkmanager-openvpn,OpenVPN
 A,soundcloud-dl-git,soundcloud-dl
+A,anki-git,Anki
+,android-tools,Adb
+,android-udev,Adn udev

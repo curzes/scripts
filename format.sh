@@ -1,5 +1,6 @@
 #!/bin/bash
 # localectl set-keymap sv-latin1 &&
+Pacman -Sy archlinux-keyring &&
 cfdisk &&
 cryptsetup luksFormat /dev/sda2 &&
 cryptsetup luksOpen /dev/sda2 root &&

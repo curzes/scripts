@@ -29,6 +29,10 @@
             
     </head>
     <body>
+	    <section>
+            <h2>Bootable USB</h2>
+            <code>sudo dd if=arch_linux.iso of=/dev/sdc bs=1M status=progress</code>
+        </section>
         <section>
             <h2>Format disk</h2>
             <code>https://scripts.curzes.com/format.sh</code>
@@ -42,6 +46,11 @@
         <section>
             <h2>Install dot files</h2>
             <code>https://scripts.curzes.com/git.sh</code>
+        </section>
+
+        <section>
+            <h2>SSH</h2>
+            <code>chmod 600 ./ssh/id_rsa</code>
         </section>
 
 

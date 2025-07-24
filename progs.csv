@@ -72,6 +72,7 @@ A,pmount,Mount removable devices as normal user
 ,mtpfs,mount usbs in nautilus
 ,gvfs-mtp,mount usbs in nautilus
 A,svtplay-dl,video downloader
+A,anki-bin,Hjälper dig att komma ihåg fakta (som ord/fraser på ett främmande språk) effektivt.
 ,jmtpfs,mount usbs in nautilus
 A,ytcc,yousube subscription
 A,code,visual code
